@@ -1,0 +1,23 @@
+{
+	"name": "SimpleJI 密院选课网简化",
+	"version": "0.1",
+	"icons": { "128": "blue-tiger.png" },
+	"description": "密西根学院选课网简化插件",
+    "browser_action": {
+        "default_icon": "blue-tiger.png",
+        "default_title": "SimpleJI",
+        "default_popup": "popup.html"
+    },
+	"content_scripts": [
+		{
+            "matches": ["http://202.120.63.11:8888/*"],
+            "js": ["content_script/modify.js"],
+            "run_at": "document_end",
+            "all_frames": true
+		}
+	],
+    "manifest_version": 2,
+    "web_accessible_resources": [
+        "manifest.json"
+    ]
+}
