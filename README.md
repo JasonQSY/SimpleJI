@@ -7,9 +7,11 @@ It is a Chrome extension to simplify the button of UM-SJTU JI course-chosen webs
 The original 'Course Selection' is very hard to use. I have to try several times to click it. Meanwhile, some icons are unnecessary.
 
 Original icons
+
 ![before](before.png)
 
 New icons with extension
+
 ![after](after.png)
 
 ## Usage
