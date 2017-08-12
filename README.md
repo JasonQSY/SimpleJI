@@ -1,5 +1,7 @@
 # SimpleJI
 
+> The project is deprecated now since JI does not use its old course selection website any more.
+
 It is a Chrome extension to simplify the button of UM-SJTU JI course-chosen website.
 
 ## Problem
